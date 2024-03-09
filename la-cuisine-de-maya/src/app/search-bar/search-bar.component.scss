@@ -1,0 +1,38 @@
+.inner-form {
+  float: right;
+}
+
+input#search {
+  // outline: none;
+  height: 100%;
+  background: 0 0;
+  border: 0;
+  background: #fff;
+  display: block;
+  padding: 10px 32px 10px 70px;
+  font-size: 18px;
+  color: #666;
+  border-radius: 15px;
+}
+
+.input-field {
+  position: relative;
+}
+
+.icone-search {
+    width: 70px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background: 0 0;
+    border: 0;
+    padding: 0;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+}
