@@ -23,8 +23,10 @@
 }
 
 .toolbar-container-right {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 40%;
-  padding: 0 7%;
+  padding: 0 3%;
 }

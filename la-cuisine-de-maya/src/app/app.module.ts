@@ -9,9 +9,11 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatGridListModule} from '@angular/material/grid-list';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CardRecipeComponent } from './card-recipe/card-recipe.component';
+import { ListCardsRecipeComponent } from './list-cards-recipe/list-cards-recipe.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { CardRecipeComponent } from './card-recipe/card-recipe.component';
     TopHeaderComponent,
     NavBarComponent,
     SearchBarComponent,
-    CardRecipeComponent
+    CardRecipeComponent,
+    ListCardsRecipeComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { CardRecipeComponent } from './card-recipe/card-recipe.component';
     MatSidenavModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatGridListModule
   ],
   providers: [
     provideAnimationsAsync()
