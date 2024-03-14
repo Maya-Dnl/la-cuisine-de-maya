@@ -14,6 +14,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CardRecipeComponent } from './card-recipe/card-recipe.component';
 import { ListCardsRecipeComponent } from './list-cards-recipe/list-cards-recipe.component';
+import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ListCardsRecipeComponent } from './list-cards-recipe/list-cards-recipe.
     NavBarComponent,
     SearchBarComponent,
     CardRecipeComponent,
-    ListCardsRecipeComponent
+    ListCardsRecipeComponent,
+    RecipeDetailsComponent
   ],
   imports: [
     BrowserModule,
