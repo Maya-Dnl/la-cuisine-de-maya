@@ -15,6 +15,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CardRecipeComponent } from './card-recipe/card-recipe.component';
 import { ListCardsRecipeComponent } from './list-cards-recipe/list-cards-recipe.component';
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RecipeDetailsComponent } from './recipe-details/recipe-details.componen
     SearchBarComponent,
     CardRecipeComponent,
     ListCardsRecipeComponent,
-    RecipeDetailsComponent
+    RecipeDetailsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
