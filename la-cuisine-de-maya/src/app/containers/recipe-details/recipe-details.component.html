@@ -1,6 +1,6 @@
 <div class="header-recipe-details">
   <a href="recipes" class="back-btn"><mat-icon class="custom-icon">arrow_back</mat-icon></a>
-  <h1>Purée de Potimarron, poêlée de Champignons et Burrata</h1>
+  <h1>{{ Recipe.Title }}</h1>
   <div class="favorite-btn"><mat-icon class="custom-icon">favorite_border</mat-icon></div>
 </div>
 
@@ -12,33 +12,37 @@
   <div class="ingredients-content">
     <h2 class="title-custom">Ingrédients</h2>
     <ul>
-      <li>1 potimarron moyen</li>
+      <li *ngFor="let ingredient of Recipe.Ingredients">{{ ingredient }}</li> 
+      <!-- <li>1 potimarron moyen</li>
       <li>200g de champignons (de Paris ou autres selon préférence)</li>
       <li>1 boule de burrata</li>
       <li>2 gousses d'ail</li>
       <li>2 cuillères à soupe d'huile d'olive</li>
       <li>Sel et poivre noir moulu, selon le goût</li>
-      <li>Quelques feuilles de persil frais pour la garniture</li>
+      <li>Quelques feuilles de persil frais pour la garniture</li> -->
     </ul>
   </div>
   <div class="ustensils-content">
     <h2 class="title-custom">Ustensils</h2>
     <ul>
-      <li>1 grande casserole</li>
+      <li *ngFor="let ustensil of Recipe.Ustensils">{{ ustensil }}</li>
+      <!-- <li>1 grande casserole</li>
       <li>1 poêle</li>
       <li>1 blender ou un presse-purée</li>
       <li>Planche à découper</li>
       <li>Couteau de cuisine</li>
       <li>Cuillères à soupe et à café</li>
-      <li>Spatule</li>
+      <li>Spatule</li> -->
     </ul>
   </div>
 </div>
 
 <h2 class="title-custom text-center">La Recette Pas par Pas</h2>
 <div class="recipe-steps">
-  <ul class="step">
-    <p class="name-step">1. Préparation des ingrédients :</p>
+  <ol class="step"  *ngFor="let step of Recipe.Steps">
+    <p class="name-step">{{ step.name }}</p>
+    <li *ngFor="let step of step.step">{{ step }}</li>
+    <!-- <p class="name-step">1. Préparation des ingrédients :</p>
     <li>Lavez soigneusement le potimarron et coupez-le en deux. Retirez les graines et coupez la chair en gros cubes</li>
     <li>Nettoyez les champignons et coupez-les en tranches.</li>
     <li>Émincez finement l'ail.</li>
@@ -70,8 +74,8 @@
     <li>Garnissez avec les morceaux de burrata.</li>
     <li>Parsemez de persil frais haché pour la touche finale</li>
     <p class="name-step">6. Dégustation :</p>
-    <p>Servez la purée de potimarron, champignons et burrata chauds, accompagnée de pain grillé ou d'une salade verte pour un repas complet et délicieux !</p>
-  </ul>
+    <p>Servez la purée de potimarron, champignons et burrata chauds, accompagnée de pain grillé ou d'une salade verte pour un repas complet et délicieux !</p> -->
+  </ol>
 </div>
 
 <div class="footer-recipe">
