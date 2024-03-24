@@ -1,0 +1,711 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Salade de quinoa aux légumes grillés",
+      "imageURL": "assets\\images\\recette-vegetarienne-salade-quinoa-legumes-grilles.webp",
+      "ingredients": [
+        "1 tasse de quinoa",
+        "2 courgettes",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "1 oignon rouge",
+        "1 citron",
+        "4 cuillères à soupe d'huile d'olive",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Plat de cuisson pour le grill",
+        "Couteau",
+        "Planche à découper",
+        "Saladier",
+        "Cuillère"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Faites cuire le quinoa selon les instructions sur l'emballage.",
+            "Préchauffez le grill.",
+            "Coupez les courgettes, les poivrons et l'oignon en morceaux.",
+            "Pressez le citron pour en extraire le jus."
+          ]
+        },
+        {
+          "name": "Cuisson des légumes",
+          "step": [
+            "Badigeonnez les légumes d'huile d'olive et assaisonnez-les avec du sel et du poivre.",
+            "Faites griller les légumes pendant environ 10-15, jusqu'à ce qu'ils soient tendres et légèrement dorés."
+          ]
+        },
+        {
+          "name": "Préparation de la salade",
+          "step": [
+            "Dans un grand saladier, mélangez le quinoa cuit et les légumes grillés.",
+            "Arrosez avec le jus de citron et ajoutez plus d'huile d'olive si nécessaire.",
+            "Assaisonnez avec du sel et du poivre selon votre goût."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez la salade de quinoa aux légumes grillés en accompagnement d'une protéine végétale ou en plat principal."
+          ]
+        }
+      ],
+      "preparationTime": 30,
+      "cookingTime": 15,
+      "priceLevel": 1,
+      "quickDescription": "Salade de quinoa aux légumes grillés, une explosion de saveurs méditerranéennes en un plat sain et nourrissant."
+    },
+    {
+      "id": 2,
+      "title": "Curry de pois chiches et patates douces",
+      "imageURL": "assets\\images\\recette-vegan-curry-patate-douce-pois-chiches.webp",
+      "ingredients": [
+        "400g de pois chiches cuits",
+        "2 patates douces",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 boîte de tomates concassées",
+        "200ml de lait de coco",
+        "2 cuillères à soupe de pâte de curry",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Poêle",
+        "Couteau",
+        "Planche à découper",
+        "Cuillère en bois"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Épluchez et coupez les patates douces en dés.",
+            "Hachez l'oignon et l'ail."
+          ]
+        },
+        {
+          "name": "Cuisson du curry",
+          "step": [
+            "Faites revenir l'oignon dans une poêle avec un peu d'huile jusqu'à ce qu'il soit doré.",
+            "Ajoutez l'ail et la pâte de curry, et faites cuire pendant 1 minute.",
+            "Ajoutez les pois chiches, les patates douces, les tomates concassées et le lait de coco.",
+            "Laissez mijoter pendant 15-20 jusqu'à ce que les patates douces soient tendres et que la sauce épaississe."
+          ]
+        },
+        {
+          "name": "Dressage",
+          "step": [
+            "Servez le curry de pois chiches et patates douces chaud, accompagné de riz basmati cuit."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Saupoudrez de coriandre fraîche hachée avant de servir."
+          ]
+        }
+      ],
+      "preparationTime": 20,
+      "cookingTime": 20,
+      "priceLevel": 1,
+      "quickDescription": "Un curry végétarien réconfortant avec des pois chiches et des patates douces dans une sauce crémeuse au curry, idéal pour un repas sain et savoureux."
+    },
+    {
+      "id": 3,
+      "title": "Salade de lentilles aux légumes rôtis",
+      "imageURL": "assets\\images\\DSC_0853-scaled.jpg",
+      "ingredients": [
+        "1 tasse de lentilles vertes",
+        "1 carotte",
+        "1 poivron rouge",
+        "1 oignon rouge",
+        "2 gousses d'ail",
+        "4 cuillères à soupe d'huile d'olive",
+        "1 cuillère à soupe de vinaigre de cidre",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Plat de cuisson pour le four",
+        "Couteau",
+        "Planche à découper",
+        "Saladier",
+        "Cuillère"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Faites cuire les lentilles selon les instructions sur l'emballage.",
+            "Préchauffez le four.",
+            "Coupez la carotte, le poivron et l'oignon en morceaux.",
+            "Hachez l'ail."
+          ]
+        },
+        {
+          "name": "Cuisson des légumes",
+          "step": [
+            "Disposez les légumes sur une plaque de cuisson.",
+            "Arrosez d'huile d'olive, assaisonnez avec du sel et du poivre, et mélangez bien.",
+            "Rôtissez au four pendant 20-25, en remuant à mi-cuisson, jusqu'à ce que les légumes soient tendres et légèrement dorés."
+          ]
+        },
+        {
+          "name": "Préparation de la salade",
+          "step": [
+            "Dans un grand saladier, mélangez les lentilles cuites et les légumes rôtis.",
+            "Arrosez avec le vinaigre de cidre et ajoutez plus d'huile d'olive si nécessaire.",
+            "Assaisonnez avec du sel et du poivre selon votre goût."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez la salade de lentilles aux légumes rôtis en accompagnement d'une protéine végétale ou en plat principal."
+          ]
+        }
+      ],
+      "preparationTime": 10,
+      "cookingTime": 25,
+      "priceLevel": 1,
+      "quickDescription": "Salade savoureuse de lentilles accompagnée de légumes rôtis, idéale en accompagnement ou en plat principal."
+    },
+    {
+      "id": 4,
+      "title": "Soupe de potiron et carottes",
+      "imageURL": "assets\\images\\i143972-soupe-potimarron-et-carottes-au-thermomix.jpeg",
+      "ingredients": [
+        "500g de potiron",
+        "3 carottes",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 litre de bouillon de légumes",
+        "1 cuillère à café de cumin en poudre",
+        "1/2 cuillère à café de muscade moulue",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Casserole",
+        "Couteau",
+        "Planche à découper",
+        "Mixeur"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Épluchez et coupez le potiron, les carottes et l'oignon en morceaux.",
+            "Hachez l'ail."
+          ]
+        },
+        {
+          "name": "Cuisson de la soupe",
+          "step": [
+            "Faites revenir l'oignon dans une casserole avec un peu d'huile jusqu'à ce qu'il soit doré.",
+            "Ajoutez l'ail et faites cuire pendant 1 minute.",
+            "Ajoutez le potiron, les carottes, le bouillon de légumes, le cumin et la muscade.",
+            "Portez à ébullition, puis réduisez le feu et laissez mijoter pendant environ 20-25, jusqu'à ce que les légumes soient tendres."
+          ]
+        },
+        {
+          "name": "Mixage de la soupe",
+          "step": [
+            "Retirez la casserole du feu et laissez refroidir légèrement.",
+            "Utilisez un mixeur plongeant pour réduire la soupe en purée lisse.",
+            "Assaisonnez avec du sel et du poivre selon votre goût."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez la soupe de potiron et carottes chaude, garnie de graines de citrouille grillées ou de crème fraîche."
+          ]
+        }
+      ],
+      "preparationTime": 15,
+      "cookingTime": 25,
+      "priceLevel": 1,
+      "quickDescription": "Soupe réconfortante de potiron et carottes, parfaitement équilibrée en saveurs et textures."
+    },
+    {
+      "id": 5,
+      "title": "Salade de pois chiches méditerranéenne",
+      "imageURL": "assets\\images\\main-header.avif",
+      "ingredients": [
+        "400g de pois chiches cuits",
+        "1 concombre",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "200g de tomates cerises",
+        "1 oignon rouge",
+        "100g de feta",
+        "4 cuillères à soupe d'huile d'olive",
+        "Jus de 2 citrons",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Couteau",
+        "Planche à découper",
+        "Saladier",
+        "Cuillère"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Rincez et égouttez les pois chiches.",
+            "Coupez le concombre, les poivrons, les tomates cerises et l'oignon en dés.",
+            "Coupez la feta en cubes."
+          ]
+        },
+        {
+          "name": "Préparation de la vinaigrette",
+          "step": [
+            "Dans un petit bol, mélangez l'huile d'olive, le jus de citron, du sel et du poivre pour faire la vinaigrette."
+          ]
+        },
+        {
+          "name": "Assemblage de la salade",
+          "step": [
+            "Dans un grand saladier, combinez les pois chiches, les légumes coupés et la feta.",
+            "Arrosez avec la vinaigrette et mélangez délicatement pour bien enrober tous les ingrédients."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez la salade de pois chiches méditerranéenne comme plat principal ou en accompagnement."
+          ]
+        }
+      ],
+      "preparationTime": 20,
+      "cookingTime": 0,
+      "priceLevel": 1,
+      "quickDescription": "Salade fraîche et colorée de pois chiches agrémentée de légumes méditerranéens et de feta, parfaitement relevée."
+    },
+    {
+      "id": 6,
+      "title": "Ratatouille provençale",
+      "imageURL": "assets\\images\\Ratatouille-©comeirrez-shutterstock.webp",
+      "ingredients": [
+        "1 aubergine",
+        "1 courgette",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "2 tomates",
+        "2 oignons",
+        "2 gousses d'ail",
+        "4 cuillères à soupe d'huile d'olive",
+        "1 cuillère à café de thym séché",
+        "1 cuillère à café d'origan séché",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Couteau",
+        "Planche à découper",
+        "Casserole"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Coupez tous les légumes en petits dés.",
+            "Hachez l'ail."
+          ]
+        },
+        {
+          "name": "Cuisson de la ratatouille",
+          "step": [
+            "Dans une casserole, faites chauffer l'huile d'olive à feu moyen.",
+            "Ajoutez les oignons et l'ail, et faites-les revenir jusqu'à ce qu'ils soient translucides.",
+            "Ajoutez les poivrons et faites cuire pendant environ 5.",
+            "Incorporez les aubergines, les courgettes et les tomates.",
+            "Assaisonnez avec du sel, du poivre, du thym et de l'origan.",
+            "Laissez mijoter à feu doux pendant environ 20-25, jusqu'à ce que les légumes soient tendres."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez la ratatouille provençale chaude ou froide, accompagnée de pain frais ou de riz."
+          ]
+        }
+      ],
+      "preparationTime": 20,
+      "cookingTime": 25,
+      "priceLevel": 2,
+      "quickDescription": "Plat traditionnel provençal composé d'aubergine, courgette, poivron, tomate, oignon et ail, mijoté avec des herbes aromatiques."
+    },
+    {
+      "id": 7,
+      "title": "Pâtes primavera aux légumes",
+      "imageURL": "assets\\images\\Pates-au-pesto-et-legumes-du-soleil-min.jpg",
+      "ingredients": [
+        "300g de pâtes (de votre choix)",
+        "1 courgette",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "1 oignon",
+        "2 gousses d'ail",
+        "200g de tomates cerises",
+        "4 cuillères à soupe d'huile d'olive",
+        "Basilic frais",
+        "Parmesan râpé (facultatif)",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Couteau",
+        "Planche à découper",
+        "Casserole",
+        "Passoire"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Faites cuire les pâtes selon les instructions sur l'emballage.",
+            "Pendant ce temps, coupez la courgette, les poivrons, l'oignon et les tomates cerises en dés.",
+            "Hachez l'ail et le basilic."
+          ]
+        },
+        {
+          "name": "Cuisson des légumes",
+          "step": [
+            "Dans une poêle, chauffez l'huile d'olive à feu moyen.",
+            "Ajoutez l'oignon et l'ail, et faites-les revenir jusqu'à ce qu'ils soient translucides.",
+            "Incorporez les poivrons et la courgette, et faites cuire pendant environ 5-7, jusqu'à ce qu'ils soient tendres mais encore croquants.",
+            "Ajoutez les tomates cerises et laissez cuire encore 2-3.",
+            "Assaisonnez avec du sel et du poivre selon votre goût."
+          ]
+        },
+        {
+          "name": "Assemblage des pâtes",
+          "step": [
+            "Égouttez les pâtes et réservez une tasse d'eau de cuisson.",
+            "Ajoutez les pâtes cuites dans la poêle avec les légumes.",
+            "Ajoutez un peu d'eau de cuisson des pâtes pour créer une sauce légère.",
+            "Incorporez le basilic frais haché et mélangez bien.",
+            "Servez chaud, avec du parmesan râpé si désiré."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez les pâtes primavera aux légumes comme plat principal ou en accompagnement."
+          ]
+        }
+      ],
+      "preparationTime": 15,
+      "cookingTime": 15,
+      "priceLevel": 1,
+      "quickDescription": "Pâtes fraîches accompagnées de légumes de saison sautés à l'huile d'olive, agrémentées de basilic frais."
+    },
+    {
+      "id": 8,
+      "title": "Taboulé libanais",
+      "imageURL": "assets\\images\\taboule-libanaise.jpg",
+      "ingredients": [
+        "200g de couscous",
+        "1 concombre",
+        "2 tomates",
+        "1 oignon rouge",
+        "1 bouquet de persil frais",
+        "1 bouquet de menthe fraîche",
+        "Jus de 2 citrons",
+        "4 cuillères à soupe d'huile d'olive",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Couteau",
+        "Planche à découper",
+        "Saladier",
+        "Cuillère"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Faites cuire le couscous selon les instructions sur l'emballage et laissez-le refroidir.",
+            "Pendant ce temps, coupez le concombre, les tomates et l'oignon en petits dés.",
+            "Hachez finement le persil et la menthe."
+          ]
+        },
+        {
+          "name": "Assemblage du taboulé",
+          "step": [
+            "Dans un grand saladier, mélangez le couscous cuit, les légumes coupés, le persil et la menthe.",
+            "Arrosez avec le jus de citron et l'huile d'olive.",
+            "Assaisonnez avec du sel et du poivre selon votre goût.",
+            "Mélangez bien tous les ingrédients jusqu'à ce qu'ils soient uniformément répartis."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez le taboulé libanais frais, en accompagnement d'une protéine végétale ou en plat principal."
+          ]
+        }
+      ],
+      "preparationTime": 20,
+      "cookingTime": 0,
+      "priceLevel": 1,
+      "quickDescription": "Salade fraîche et parfumée originaire du Liban, à base de couscous, de légumes frais, d'herbes aromatiques et d'une vinaigrette au citron et à l'huile d'olive."
+    },
+    {
+      "id": 9,
+      "title": "Caponata sicilienne",
+      "imageURL": "assets\\images\\i136427-caponata-recette-sicilienne.jpeg",
+      "ingredients": [
+        "1 aubergine",
+        "2 tomates",
+        "1 poivron rouge",
+        "1 oignon",
+        "2 gousses d'ail",
+        "50g d'olives vertes dénoyautées",
+        "2 cuillères à soupe de câpres",
+        "4 cuillères à soupe d'huile d'olive",
+        "2 cuillères à soupe de vinaigre de vin rouge",
+        "1 cuillère à café de sucre",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Couteau",
+        "Planche à découper",
+        "Poêle",
+        "Casserole"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Coupez l'aubergine, les tomates et le poivron en dés.",
+            "Hachez l'oignon et l'ail.",
+            "Coupez les olives en rondelles."
+          ]
+        },
+        {
+          "name": "Cuisson de la caponata",
+          "step": [
+            "Dans une poêle, chauffez 2 cuillères à soupe d'huile d'olive à feu moyen.",
+            "Ajoutez l'aubergine et faites-la revenir jusqu'à ce qu'elle soit dorée.",
+            "Retirez l'aubergine de la poêle et réservez.",
+            "Dans la même poêle, ajoutez 2 cuillères à soupe d'huile d'olive.",
+            "Ajoutez l'oignon et l'ail, et faites-les revenir jusqu'à ce qu'ils soient translucides.",
+            "Incorporez le poivron et faites cuire pendant environ 5.",
+            "Ajoutez les tomates, les olives, les câpres, le vinaigre de vin rouge, le sucre, du sel et du poivre.",
+            "Laissez mijoter à feu doux pendant environ 20-25, jusqu'à ce que la caponata épaississe."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez la caponata sicilienne chaude ou froide, en accompagnement ou en antipasti."
+          ]
+        }
+      ],
+      "preparationTime": 20,
+      "cookingTime": 25,
+      "priceLevel": 2,
+      "quickDescription": "Plat sicilien traditionnel à base d'aubergine, tomate, poivron, olives et câpres, mijoté avec du vinaigre de vin rouge et du sucre pour une saveur aigre-douce caractéristique."
+    },
+    {
+      "id": 10,
+      "title": "Pizzas aux légumes grillés",
+      "imageURL": "assets\\images\\i10162-pizza-aux-legumes-grilles.jpg",
+      "ingredients": [
+        "Pâte à pizza (maison ou prête à l'emploi)",
+        "1 courgette",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "1 aubergine",
+        "200g de champignons",
+        "2 tomates",
+        "200g de mozzarella",
+        "4 cuillères à soupe de sauce tomate",
+        "Basilic frais",
+        "Origan séché",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Plat de cuisson pour le grill",
+        "Couteau",
+        "Planche à découper",
+        "Rouleau à pâtisserie"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Préchauffez le grill.",
+            "Coupez les légumes en tranches épaisses.",
+            "Faites-les griller pendant quelques de chaque côté, jusqu'à ce qu'ils soient tendres et légèrement dorés.",
+            "Coupez la mozzarella en tranches."
+          ]
+        },
+        {
+          "name": "Préparation des pizzas",
+          "step": [
+            "Préchauffez le four à la température recommandée pour la pâte à pizza.",
+            "Étalez la pâte à pizza sur une plaque de cuisson.",
+            "Étalez la sauce tomate sur la pâte, en laissant un bord libre.",
+            "Disposez les légumes grillés sur la sauce tomate.",
+            "Ajoutez les tranches de mozzarella.",
+            "Saupoudrez d'origan séché et de basilic frais.",
+            "Arrosez d'un filet d'huile d'olive.",
+            "Assaisonnez avec du sel et du poivre selon votre goût."
+          ]
+        },
+        {
+          "name": "Cuisson des pizzas",
+          "step": [
+            "Faites cuire les pizzas au four selon les instructions de la pâte, jusqu'à ce que la croûte soit dorée et le fromage fondu."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez les pizzas aux légumes grillés chaudes, garnies de feuilles de basilic frais."
+          ]
+        }
+      ],
+      "preparationTime": 20,
+      "cookingTime": 15,
+      "priceLevel": 1,
+      "quickDescription": "Découvrez une délicieuse variante de pizza avec des légumes grillés, une explosion de saveurs méditerranéennes à chaque bouchée."
+    },
+    {
+      "id": 11,
+      "title": "Tarte aux légumes d'été",
+      "imageURL": "assets\\images\\tarte-tian-aux-legumes-d-ete-facile-a-faire.jpeg",
+      "ingredients": [
+        "1 pâte brisée (maison ou prête à l'emploi)",
+        "2 courgettes",
+        "1 aubergine",
+        "2 tomates",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "200g de fromage de chèvre",
+        "2 œufs",
+        "100ml de crème fraîche",
+        "Basilic frais",
+        "Huile d'olive",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Couteau",
+        "Planche à découper",
+        "Moule à tarte",
+        "Fouet"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des légumes",
+          "step": [
+            "Préchauffez le four.",
+            "Coupez les légumes en tranches fines.",
+            "Disposez-les sur une plaque de cuisson.",
+            "Arrosez d'huile d'olive, assaisonnez avec du sel et du poivre, et mélangez bien."
+          ]
+        },
+        {
+          "name": "Cuisson des légumes",
+          "step": [
+            "Faites cuire les légumes au four pendant environ 20-25, jusqu'à ce qu'ils soient tendres."
+          ]
+        },
+        {
+          "name": "Préparation de l'appareil à quiche",
+          "step": [
+            "Dans un bol, battez les œufs et la crème fraîche.",
+            "Assaisonnez avec du sel, du poivre et du basilic frais ciselé."
+          ]
+        },
+        {
+          "name": "Assemblage de la tarte",
+          "step": [
+            "Étalez la pâte brisée dans un moule à tarte.",
+            "Disposez les légumes cuits sur le fond de tarte.",
+            "Versez l'appareil à quiche sur les légumes.",
+            "Émiettez le fromage de chèvre sur le dessus.",
+            "Saupoudrez de basilic frais ciselé."
+          ]
+        },
+        {
+          "name": "Cuisson de la tarte",
+          "step": [
+            "Faites cuire la tarte au four préchauffé selon les instructions de la pâte, jusqu'à ce que la pâte soit dorée et l'appareil à quiche soit pris."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez la tarte aux légumes d'été chaude ou tiède, accompagnée d'une salade verte."
+          ]
+        }
+      ],
+      "preparationTime": 30,
+      "cookingTime": 25,
+      "priceLevel": 1,
+      "quickDescription": "Une tarte délicieusement garnie de légumes d'été colorés et de fromage de chèvre fondant, le tout sur une croûte croustillante. Parfaite pour une repas convivial et léger."
+    },
+    {
+      "id": 12,
+      "title": "Salade de riz aux légumes croquants",
+      "imageURL": "assets\\images\\salade-de-riz-aux-légumes-croquants-1000x500.jpg",
+      "ingredients": [
+        "1 tasse de riz basmati",
+        "1 concombre",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "200g de tomates cerises",
+        "1 carotte",
+        "4 cuillères à soupe d'huile d'olive",
+        "2 cuillères à soupe de vinaigre de vin blanc",
+        "1 cuillère à soupe de moutarde de Dijon",
+        "1 cuillère à café de miel",
+        "Sel et poivre"
+      ],
+      "ustensils": [
+        "Couteau",
+        "Planche à découper",
+        "Saladier",
+        "Cuillère"
+      ],
+      "steps": [
+        {
+          "name": "Préparation des ingrédients",
+          "step": [
+            "Faites cuire le riz basmati selon les instructions sur l'emballage et laissez-le refroidir.",
+            "Pendant ce temps, coupez le concombre, les poivrons, les tomates cerises et la carotte en petits dés."
+          ]
+        },
+        {
+          "name": "Préparation de la vinaigrette",
+          "step": [
+            "Dans un petit bol, mélangez l'huile d'olive, le vinaigre de vin blanc, la moutarde de Dijon, le miel, du sel et du poivre pour faire la vinaigrette."
+          ]
+        },
+        {
+          "name": "Assemblage de la salade",
+          "step": [
+            "Dans un grand saladier, mélangez le riz cuit et les légumes coupés.",
+            "Arrosez avec la vinaigrette et mélangez délicatement pour bien enrober tous les ingrédients."
+          ]
+        },
+        {
+          "name": "Dégustation",
+          "step": [
+            "Servez la salade de riz aux légumes croquants comme plat principal ou en accompagnement."
+          ]
+        }
+      ],
+      "preparationTime": 20,
+      "cookingTime": 15,
+      "priceLevel": 1,
+      "quickDescription": "Une salade de riz fraîche et colorée, pleine de légumes croquants et agrémentée d'une vinaigrette légère et savoureuse. Parfaite pour une délicieuse pause repas."
+    }
+  ]
+}

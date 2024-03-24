@@ -1,0 +1,26 @@
+<a href="recipe/:id" class="show-details-recipe">
+  <div class="card-recipe">
+    <div class="card-header">
+      <div class="favorite-border-icon">
+        <mat-icon>favorite_border</mat-icon>
+      </div>
+      <img [src]="Recipe.ImageURL" alt="purée de potimarron, champignons, burrata"> 
+      <div class="card-img-overlay">
+        <h3>{{ Recipe.Title }}</h3>
+      </div>
+    </div>
+    <div class="timer-price">
+      <div class="timer">
+        <mat-icon>schedule</mat-icon>
+        <div>{{ Recipe.PreparationTime }}min</div>
+      </div>
+      <div class="price" [ngSwitch]="Recipe.PriceLevel">
+          <div *ngSwitchCase="1"><mat-icon>euro</mat-icon></div>
+          <div *ngSwitchCase="2"><mat-icon>euro</mat-icon><mat-icon>euro</mat-icon></div>
+          <div *ngSwitchCase="3"><mat-icon>euro</mat-icon><mat-icon>euro</mat-icon><mat-icon>euro</mat-icon></div>
+          <div *ngSwitchDefault></div>
+      </div>
+    </div>
+    <p>{{ Recipe.QuickDescription }}</p>
+  </div>
+</a>

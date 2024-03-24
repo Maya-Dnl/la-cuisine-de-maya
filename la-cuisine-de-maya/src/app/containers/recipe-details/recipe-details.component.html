@@ -1,0 +1,49 @@
+<div class="header-recipe-details">
+  <a href="recipes" class="back-btn"><mat-icon class="custom-icon">arrow_back</mat-icon></a>
+  <h1>{{ Recipe.Title }}</h1>
+  <div class="favorite-btn"><mat-icon class="custom-icon">favorite_border</mat-icon></div>
+</div>
+
+<div class="recipe-details-img">
+  <img src=".\assets\images\recettes-vegetariennes-hiver.jpg" alt="Purée de Potimarron, Champignons et Burrata">
+</div>
+
+<div class="ingredients-ustensils-container">
+  <div class="ingredients-content">
+    <h2 class="title-custom">Ingrédients</h2>
+    <ul>
+      <li *ngFor="let ingredient of Recipe.Ingredients">{{ ingredient }}</li>
+      <li>200g de champignons (de Paris ou autres selon préférence)</li>
+      <li>1 boule de burrata</li>
+      <li>2 gousses d'ail</li>
+      <li>2 cuillères à soupe d'huile d'olive</li>
+      <li>Sel et poivre noir moulu, selon le goût</li>
+      <li>Quelques feuilles de persil frais pour la garniture</li> -->
+    </ul>
+  </div>
+  <div class="ustensils-content">
+    <h2 class="title-custom">Ustensils</h2>
+    <ul>
+      <li *ngFor="let ustensil of Recipe.Ustensils">{{ ustensil }}</li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="title-custom text-center">La Recette Pas par Pas</h2>
+<div class="recipe-steps">
+  <ol class="step" *ngFor="let step of Recipe.Steps">
+    <p class="name-step">{{ step.name }}</p>
+    <li *ngFor="let step of step.step">{{ step }}</li>
+  </ol>
+</div>
+
+<div class="footer-recipe">
+  <h2 class="title-custom text-center">Et maintenant, Régalez-vous !</h2>
+  <div class="rating-stars text-center title-custom">
+    <mat-icon>star</mat-icon>
+    <mat-icon>star</mat-icon>
+    <mat-icon>star</mat-icon>
+    <mat-icon>star</mat-icon>
+    <mat-icon>star</mat-icon>
+  </div>
+</div>
