@@ -1,6 +1,6 @@
 export interface RecipeDetailsVM {
   Title: string;
-  //Image:
+  ImageURL: string;
   Ingredients: string[];
   Ustensils: string[];
   Steps: {

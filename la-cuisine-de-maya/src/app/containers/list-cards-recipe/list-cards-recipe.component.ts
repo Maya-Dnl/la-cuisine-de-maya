@@ -1,21 +1,34 @@
 import { Component } from '@angular/core';
+import { RecipeService } from '../../services/recipes.service';
+import { CardRecipeVM } from '../../components/card-recipe/card-recipe.viewmodel';
+// import { RecipeDetailsVM } from '../recipe-details/recipe-details.viewmodel';
+
 
 @Component({
   selector: 'app-list-cards-recipe',
   templateUrl: './list-cards-recipe.component.html',
   styleUrl: './list-cards-recipe.component.scss'
 })
+
 export class ListCardsRecipeComponent {
-  items = [
-    { title: 'Purée de Potimarron, Champignons et Buratta', content: 'Contenu de la carte 1' },
-    { title: 'Titre de la carte 2', content: 'Contenu de la carte 2' },
-    { title: 'Titre de la carte 3', content: 'Contenu de la carte 3' },
-    { title: 'Titre de la carte 4', content: 'Contenu de la carte 4' },
-    { title: 'Titre de la carte 5', content: 'Contenu de la carte 5' },
-    { title: 'Titre de la carte 6', content: 'Contenu de la carte 6' },
-    { title: 'Titre de la carte 7', content: 'Contenu de la carte 7' },
-    { title: 'Titre de la carte 8', content: 'Contenu de la carte 8' },
-    { title: 'Titre de la carte 9', content: 'Contenu de la carte 9' },
-    { title: 'Titre de la carte 10', content: 'Contenu de la carte 10' },
-  ];
+
+  public Recipes: CardRecipeVM[];
+
+
+  constructor(private recipeService: RecipeService) {
+    let recipesData = recipeService.GetAllRecipes();
+
+    if (recipesData == null) {
+      throw "recipes data is null";
+    }
+
+    this.Recipes = recipesData.map(x =>
+      <CardRecipeVM>{
+        Title: x.title,
+        ImageURL: x.imageURL,
+        PreparationTime: x.preparationTime, 
+        PriceLevel: x.priceLevel, 
+        QuickDescription: x.quickDescription
+      });
+  }
 }

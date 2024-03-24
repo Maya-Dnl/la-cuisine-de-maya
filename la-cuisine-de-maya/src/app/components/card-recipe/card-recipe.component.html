@@ -4,20 +4,23 @@
       <div class="favorite-border-icon">
         <mat-icon>favorite_border</mat-icon>
       </div>
-      <img src="assets\images\recettes-vegetariennes-hiver.jpg" alt="purée de potimarron, champignons, burrata"> 
+      <img [src]="Recipe.ImageURL" alt="purée de potimarron, champignons, burrata"> 
       <div class="card-img-overlay">
-        <h3>Purée de potimarron, champignons<br>burrata</h3>
+        <h3>{{ Recipe.Title }}</h3>
       </div>
     </div>
     <div class="timer-price">
       <div class="timer">
         <mat-icon>schedule</mat-icon>
-        <div>15 min</div>
+        <div>{{ Recipe.PreparationTime }}min</div>
       </div>
-      <div class="price">
-        <mat-icon>euro</mat-icon>
+      <div class="price" [ngSwitch]="Recipe.PriceLevel">
+          <div *ngSwitchCase="1"><mat-icon>euro</mat-icon></div>
+          <div *ngSwitchCase="2"><mat-icon>euro</mat-icon><mat-icon>euro</mat-icon></div>
+          <div *ngSwitchCase="3"><mat-icon>euro</mat-icon><mat-icon>euro</mat-icon><mat-icon>euro</mat-icon></div>
+          <div *ngSwitchDefault></div>
       </div>
     </div>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia placeat expedita autem eaque voluptatum. Iure quidem tempora unde omnis officiis repellat animi vero provident quia facilis, quod accusantium, doloribus ipsam.</p>
+    <p>{{ Recipe.QuickDescription }}</p>
   </div>
 </a>

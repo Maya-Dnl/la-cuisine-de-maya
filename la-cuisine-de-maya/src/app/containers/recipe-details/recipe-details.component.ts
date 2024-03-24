@@ -21,6 +21,7 @@ export class RecipeDetailsComponent {
 
     this.Recipe = {
       Title: recipeData.title,
+      ImageURL: recipeData.imageURL,
       Ingredients: recipeData.ingredients,
       Ustensils: recipeData.ustensils,
       Steps: recipeData.steps

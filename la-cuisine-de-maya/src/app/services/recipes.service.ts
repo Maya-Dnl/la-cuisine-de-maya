@@ -9,6 +9,11 @@ export class RecipeService {
   {
     return recipesData.recipes.find(x => x.id == id);
   }
+
+  public GetAllRecipes()
+  {
+    return recipesData.recipes;
+  }
 }
 
 // methodes pour aller chercher les recettes
