@@ -1,0 +1,9 @@
+<h1 class="recipes-title-page">Recettes Végétariennes à préparer de préférence avec des produits Bio & Locaux !</h1>
+
+<mat-grid-list cols="4" rowHeight="2:2.8" class="cards-container">
+  <mat-grid-tile *ngFor="let recipe of Recipes">
+    <app-card-recipe [Recipe]="recipe"></app-card-recipe>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<!-- [data]="item" -->
