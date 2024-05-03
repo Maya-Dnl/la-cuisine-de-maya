@@ -17,6 +17,7 @@ import { ListCardsRecipeComponent } from './containers/list-cards-recipe/list-ca
 import { RecipeDetailsComponent } from './containers/recipe-details/recipe-details.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RecipeService } from './services/recipes.service';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { RecipeService } from './services/recipes.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     MatSidenavModule,
     MatToolbarModule,
     MatIconModule,
