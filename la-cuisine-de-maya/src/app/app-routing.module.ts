@@ -6,6 +6,7 @@ import { ListCardsRecipeComponent } from './containers/list-cards-recipe/list-ca
 const routes: Routes = [
   { path: 'recipes', component: ListCardsRecipeComponent },
   { path: 'recipe/:id', component: RecipeDetailsComponent },
+  { path: "**", component: ListCardsRecipeComponent }
 ];
 
 @NgModule({
