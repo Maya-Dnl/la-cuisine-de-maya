@@ -19,18 +19,14 @@ export class ListCardsRecipeComponent {
   
   }
 
-  ngOnInit()
-  {
-   // let recipesData = recipeService.GetFilteredRecipes();
-this.recipeService.FilteredRecipes$.subscribe(recipes => this.Recipes = recipes.map(x =>
-  <CardRecipeVM>{
-    Title: x.title,
-    ImageURL: x.imageURL,
-    PreparationTime: x.preparationTime, 
-    PriceLevel: x.priceLevel, 
-    QuickDescription: x.quickDescription
-  }));
- 
-   
+  this.Recipes = recipesData.map(x =>
+    <CardRecipeVM>{
+      id: x.id,
+      Title: x.title,
+      ImageURL: x.imageURL,
+      PreparationTime: x.preparationTime, 
+      PriceLevel: x.priceLevel, 
+      QuickDescription: x.quickDescription
+    });
   }
 }
