@@ -24,6 +24,7 @@ export class ListCardsRecipeComponent {
 
     this.Recipes = recipesData.map(x =>
       <CardRecipeVM>{
+        id: x.id,
         Title: x.title,
         ImageURL: x.imageURL,
         PreparationTime: x.preparationTime, 
